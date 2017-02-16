@@ -1,0 +1,29 @@
+{
+  "name": "tga2png",
+  "version": "0.1.0",
+  "description": "A pure Node.js tga image to png module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steel1990/tga2png.git"
+  },
+  "keywords": [
+    "tga",
+    "png"
+  ],
+  "author": "lbbsteel@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steel1990/tga2png/issues"
+  },
+  "homepage": "https://github.com/steel1990/tga2png#readme",
+  "dependencies": {
+    "fs-promise": "^2.0.0",
+    "pngjs": "^3.0.1",
+    "stream-to-buffer": "^0.1.0",
+    "tga": "^0.1.0"
+  }
+}

@@ -15,9 +15,9 @@ $ npm install tga2png --save
 API
 ========
 ### tga2png(fromPath|buffer, [savePath])
-* fromPath: tga 文件路径，这个参数也可以传读取文件的buffer
-* savePath: 保存png的路径，不传将返回png文件的buffer
-* return: Promise
+* fromPath: absolute path of the tga file, or the Buffer
+* savePath: path to save the png, it's optional
+* return: promise
 
 Example
 ========

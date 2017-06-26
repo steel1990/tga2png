@@ -1,6 +1,6 @@
 {
   "name": "tga2png",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A pure Node.js tga image to png module.",
   "main": "index.js",
   "bin": {
@@ -26,6 +26,6 @@
   "dependencies": {
     "fs-promise": "^2.0.0",
     "pngjs": "^3.0.1",
-    "tga": "^0.1.2"
+    "tga": "^1.0.0"
   }
 }

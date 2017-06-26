@@ -16,7 +16,7 @@ function tga2png(file, savePath) {
             width: tga.header.width,
             height: tga.header.height
         });
-        png.data = tga.getPixelsBuffer();
+        png.data = tga.pixels;
 
         return new Promise((resolve, reject) => {
             var bufs = [];
